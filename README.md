@@ -76,3 +76,27 @@ São definidos usando colchetes para delimitar a lista e utiliza-se vírgulas pa
   - '<=' - menor igual
   - == - igual (para igualdade)
   - != - diferente
+ 
+## Estruturas condicionais
+Estruturas de decisão
+
+```python
+# Exemplo
+a = int(input('Digite um número entre 0 e 5'))
+
+if a > 2:
+  print("O número ", a, " é maior que 2")
+elif a == 2:
+  print("O número informado é 2")
+else:
+  print("O número ", a, " é menor que 2")
+```
+
+## Estruturas de repetição
+
+#### FOR
+```python
+for i in range(1, 10):
+  print(i)
+
+```
