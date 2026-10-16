@@ -18,6 +18,8 @@ x, y = map(int, input().split()) # --> Formato numérico
 x, y = list(map(int, input().split())) # --> Formato de Array numérico
 ```
 
+Para mostrarmos um valor utilizamos a função "**_print()_**"
+
 ### Saída
 ```python
 # Saída simples
@@ -51,3 +53,26 @@ print(f'O refrigerante custa R${a:.2f}') # --> R$ 10.00
 ### Array
 São definidos usando colchetes para delimitar a lista e utiliza-se vírgulas para a separação dos elementos
 
+## Operadores
+- Aritméticos
+  - '+' = soma
+  - '-' = subtração
+  - '*' = multiplicação
+  - / = divisão real
+  - // = divisão inteira (retorna um número inteiro)
+  - % = resto da divisão
+  - ** = potência
+  - () = agrupar expressões
+
+- Lógicos
+  - and - as duas condições devem ser verdadeiras
+  - or - pelo menos uma das condições deve ser verdadeira 
+  - not - inverte o valor do elemento
+
+- Relacionais
+  - '>' - maior
+  - '>=' - maior igual
+  - '<' - menor
+  - '<=' - menor igual
+  - == - igual (para igualdade)
+  - != - diferente
